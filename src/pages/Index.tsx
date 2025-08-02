@@ -10,7 +10,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-primary-50 to-primary-100 py-20">
         <div className="container mx-auto px-4 text-center">
-          <Badge className="mb-6 bg-destructive text-white text-sm px-4 py-2">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ БЕЗ ЛИМИТА ПО ВРЕМЕНИ</Badge>
+          <Badge className="mb-6 bg-destructive text-white text-sm px-4 py-2">БАКРОТ ПРАВ</Badge>
           <h1 className="text-5xl font-bold text-gray-900 mb-6 font-heading">
             Спишите долги <span className="text-primary">законно</span> через банкротство!
           </h1>
