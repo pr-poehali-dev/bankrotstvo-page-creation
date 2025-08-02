@@ -220,7 +220,7 @@ const Index = () => {
                 <div className="w-16 h-16 bg-primary-50 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Icon name="Award" className="text-primary" size={32} />
                 </div>
-                <h3 className="font-semibold mb-2">300+ успешных дел</h3>
+                <h3 className="font-semibold mb-2">11000+ успешных дел</h3>
                 <p className="text-sm text-gray-600">Большой опыт в банкротстве физлиц</p>
               </CardContent>
             </Card>
