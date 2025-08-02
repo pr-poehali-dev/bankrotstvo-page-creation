@@ -35,10 +35,7 @@ const Index = () => {
               <Icon name="Shield" className="mr-2" size={16} />
               Без предоплаты
             </div>
-            <div className="flex items-center">
-              <Icon name="Users" className="mr-2" size={16} />
-              300+ успешных дел
-            </div>
+            <div className="flex items-center">11000+ успешных дел</div>
           </div>
         </div>
       </section>
