@@ -14,10 +14,7 @@ const Index = () => {
           <h1 className="text-5xl font-bold text-gray-900 mb-6 font-heading">
             Спишите долги <span className="text-primary">законно</span> через банкротство!
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Прекратите звонки коллекторов, аресты счетов и стресс — получите решение суда за 6–12 месяцев. 
-            От 15 000 руб./мес. под ключ
-          </p>
+          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">Прекратите звонки коллекторов, аресты счетов и стресс — получите решение суда за 6–12 месяцев. Беспроцентная рассрочка на 12 месяцев.</p>
           <div className="flex justify-center mb-12">
             <Button size="lg" className="bg-primary text-white px-8 py-4 text-lg hover:bg-primary-600">Получить бесплатную консультацию</Button>
           </div>
