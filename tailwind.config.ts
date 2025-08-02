@@ -25,8 +25,19 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					DEFAULT: '#2563EB',
+					foreground: '#FFFFFF',
+					50: '#EFF6FF',
+					100: '#DBEAFE',
+					500: '#2563EB',
+					600: '#1D4ED8',
+					700: '#1E40AF',
+				},
+				success: {
+					DEFAULT: '#059669',
+					foreground: '#FFFFFF',
+					50: '#ECFDF5',
+					100: '#D1FAE5',
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -62,6 +73,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				sans: ["'Open Sans'", "'Roboto'", "sans-serif"],
+				heading: ["'Roboto'", "'Open Sans'", "sans-serif"],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
