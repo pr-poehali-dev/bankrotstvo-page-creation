@@ -316,19 +316,106 @@ const Index = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* FAQ Section */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12 font-heading">
+            Часто задаваемые вопросы
+          </h2>
+          <div className="max-w-4xl mx-auto space-y-6">
+            <Card>
+              <CardContent className="p-6">
+                <h3 className="font-semibold text-lg mb-3">Что будет с моим имуществом при банкротстве?</h3>
+                <p className="text-gray-700">
+                  Единственное жилье, личные вещи, необходимые для работы инструменты остаются у вас. 
+                  Продается только дорогое неосновное имущество стоимостью свыше 100 тысяч рублей.
+                </p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardContent className="p-6">
+                <h3 className="font-semibold text-lg mb-3">Сколько длится процедура банкротства?</h3>
+                <p className="text-gray-700">
+                  Обычно от 6 до 12 месяцев. Точные сроки зависят от сложности дела и загруженности суда. 
+                  Мы контролируем процесс на каждом этапе.
+                </p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardContent className="p-6">
+                <h3 className="font-semibold text-lg mb-3">Какие долги нельзя списать через банкротство?</h3>
+                <p className="text-gray-700">
+                  Нельзя списать алименты, возмещение вреда жизни и здоровью, долги за умышленные преступления. 
+                  Все остальные долги (кредиты, займы, штрафы ГИБДД) списываются полностью.
+                </p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardContent className="p-6">
+                <h3 className="font-semibold text-lg mb-3">Смогу ли я получить кредит после банкротства?</h3>
+                <p className="text-gray-700">
+                  Да, но в течение 5 лет нужно будет уведомлять банки о процедуре банкротства. 
+                  Многие наши клиенты получают новые кредиты уже через 1-2 года после завершения процедуры.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA Section */}
       <section className="py-16 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6 font-heading">
-            Готовы избавиться от долгов навсегда?
+            Готовы начать жизнь без долгов?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Получите профессиональную консультацию прямо сейчас!
+            Оставьте заявку — юрист перезвонит через 15 минут и проконсультирует бесплатно!
           </p>
-          <Button size="lg" className="bg-destructive text-white hover:bg-red-700 px-12 py-6 text-xl font-semibold">
-            <Icon name="Phone" className="mr-3" size={24} />
-            Получить бесплатную консультацию
-          </Button>
+          
+          <div className="max-w-md mx-auto bg-white p-8 rounded-lg mb-8">
+            <form className="space-y-4">
+              <Input 
+                placeholder="Ваше имя" 
+                className="w-full"
+              />
+              <Input 
+                placeholder="Номер телефона" 
+                type="tel" 
+                className="w-full"
+              />
+              <Input 
+                placeholder="Сумма долга (руб.)" 
+                type="number" 
+                className="w-full"
+              />
+              <Button className="w-full bg-destructive text-white hover:bg-red-700 py-3 text-lg">
+                <Icon name="Phone" className="mr-2" size={20} />
+                Получить бесплатную консультацию
+              </Button>
+            </form>
+            <p className="text-xs text-gray-500 mt-4">
+              Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+            </p>
+            <div className="flex justify-center gap-4 mt-6">
+              <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white">
+                <Icon name="MessageCircle" className="mr-2" size={16} />
+                WhatsApp
+              </Button>
+              <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white">
+                <Icon name="Send" className="mr-2" size={16} />
+                Telegram
+              </Button>
+            </div>
+          </div>
+          
+          <div className="text-sm opacity-80">
+            <p>📞 Горячая линия: +7 (800) 123-45-67</p>
+            <p>💬 Работаем 24/7 без выходных</p>
+            <p className="mt-2 bg-red-600 inline-block px-4 py-2 rounded-lg">
+              ⏰ Акция на бесплатную консультацию до 31 августа!
+            </p>
+          </div>
         </div>
       </section>
 
