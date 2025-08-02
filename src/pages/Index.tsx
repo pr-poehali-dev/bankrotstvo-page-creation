@@ -219,7 +219,7 @@ const Index = () => {
                 <div className="w-16 h-16 bg-primary-50 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Icon name="DollarSign" className="text-primary" size={32} />
                 </div>
-                <h3 className="font-semibold mb-2">Без предоплаты</h3>
+                <h3 className="font-semibold mb-2">Рассрочка</h3>
                 <p className="text-sm text-gray-600">Оплата комфортными платежами</p>
               </CardContent>
             </Card>
