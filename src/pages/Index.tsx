@@ -220,7 +220,7 @@ const Index = () => {
                   <Icon name="DollarSign" className="text-primary" size={32} />
                 </div>
                 <h3 className="font-semibold mb-2">Без предоплаты</h3>
-                <p className="text-sm text-gray-600">Оплата по факту оказанных услуг</p>
+                <p className="text-sm text-gray-600">Оплата комфортными платежами</p>
               </CardContent>
             </Card>
             <Card className="text-center">
