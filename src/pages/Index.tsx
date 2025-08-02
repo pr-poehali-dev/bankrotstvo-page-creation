@@ -20,14 +20,10 @@ const Index = () => {
             Прекратите звонки коллекторов, аресты счетов и стресс — получите решение суда за 6–12 месяцев. 
             От 15 000 руб./мес. под ключ
           </p>
-          <div className="flex gap-4 justify-center items-center mb-12">
+          <div className="flex justify-center mb-12">
             <Button size="lg" className="bg-primary text-white px-8 py-4 text-lg hover:bg-primary-600">
               <Icon name="Phone" className="mr-2" size={20} />
               Получить консультацию
-            </Button>
-            <Button variant="outline" size="lg" className="px-8 py-4 text-lg">
-              <Icon name="MessageCircle" className="mr-2" size={20} />
-              WhatsApp
             </Button>
           </div>
           <div className="flex justify-center items-center gap-8 text-sm text-gray-600">
