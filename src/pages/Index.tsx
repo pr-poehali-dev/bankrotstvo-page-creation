@@ -323,33 +323,12 @@ const Index = () => {
             Готовы избавиться от долгов навсегда?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Оставьте заявку — юрист перезвонит через 15 минут!
+            Получите профессиональную консультацию прямо сейчас!
           </p>
-          <div className="max-w-md mx-auto bg-white p-6 rounded-lg">
-            <div className="space-y-4">
-              <Input 
-                placeholder="Ваше имя" 
-                className="w-full"
-              />
-              <Input 
-                placeholder="Номер телефона" 
-                type="tel" 
-                className="w-full"
-              />
-              <Input 
-                placeholder="Сумма долга (руб.)" 
-                type="number" 
-                className="w-full"
-              />
-              <Button className="w-full bg-destructive text-white hover:bg-red-700 py-3 text-lg">
-                <Icon name="Phone" className="mr-2" size={20} />
-                Получить бесплатную консультацию
-              </Button>
-            </div>
-            <p className="text-xs text-gray-500 mt-4">
-              Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
-            </p>
-          </div>
+          <Button size="lg" className="bg-destructive text-white hover:bg-red-700 px-12 py-6 text-xl font-semibold">
+            <Icon name="Phone" className="mr-3" size={24} />
+            Получить бесплатную консультацию
+          </Button>
         </div>
       </section>
 
