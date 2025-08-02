@@ -358,9 +358,7 @@ const Index = () => {
           <h2 className="text-3xl font-bold mb-6 font-heading">
             Готовы начать жизнь без долгов?
           </h2>
-          <p className="text-xl mb-8 opacity-90">
-            Оставьте заявку — юрист перезвонит через 15 минут и проконсультирует бесплатно!
-          </p>
+          <p className="text-xl mb-8 opacity-90">Оставьте заявку — юрист обязательно Вам перезвонит и проконсультирует бесплатно!</p>
           
           <div className="max-w-md mx-auto bg-white p-8 rounded-lg mb-8">
             <form className="space-y-4">
