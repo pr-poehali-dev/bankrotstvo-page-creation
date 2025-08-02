@@ -19,10 +19,7 @@ const Index = () => {
             От 15 000 руб./мес. под ключ
           </p>
           <div className="flex justify-center mb-12">
-            <Button size="lg" className="bg-primary text-white px-8 py-4 text-lg hover:bg-primary-600">
-              <Icon name="Phone" className="mr-2" size={20} />
-              Получить консультацию
-            </Button>
+            <Button size="lg" className="bg-primary text-white px-8 py-4 text-lg hover:bg-primary-600">Получить бесплатную консультацию</Button>
           </div>
           <div className="flex justify-center items-center gap-8 text-sm text-gray-600">
             <div className="flex items-center">
