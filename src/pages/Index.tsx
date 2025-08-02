@@ -411,7 +411,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-4 gap-8">
             <div>
-              <h3 className="font-bold text-lg mb-4">ЮрБанкрот</h3>
+              <h3 className="font-bold text-lg mb-4">БанкротПрав</h3>
               <p className="text-gray-400">
                 Профессиональная помощь в банкротстве физических лиц
               </p>
@@ -452,7 +452,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 ЮрБанкрот. Все права защищены.</p>
+            <p>© 2025 БанкротПрав. Все права защищены.</p>
           </div>
         </div>
       </footer>
